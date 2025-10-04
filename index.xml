@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Law AI Helper Blog</title>
+<link>https://nhs102.github.io/law-ai-helper/</link>
+<atom:link href="https://nhs102.github.io/law-ai-helper/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Sat, 04 Oct 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Building a Legal AI Helper: My Senior Project Overview</title>
+  <dc:creator>Shawn </dc:creator>
+  <link>https://nhs102.github.io/law-ai-helper/posts/building-law-ai-helper/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Accessing accurate and up-to-date legal information can be challenging for ordinary people, especially when it comes to labor laws. My senior project, <strong>Law AI Helper</strong>, aims to make legal knowledge more accessible by building an intelligent assistant that can understand and summarize labor law documents.</p>
+<p>The project integrates <strong>Retrieval-Augmented Generation (RAG)</strong> and <strong>Large Language Models (LLMs)</strong> to answer legal questions using official legal documents as references.</p>
+<hr>
+</section>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>Many people struggle to understand legal language or find the right information about their workplace rights. Even when legal documents are available online, they are often written in complex terms that are hard to interpret.</p>
+<p>As a data science student, I wanted to bridge this gap — using AI not to replace lawyers, but to assist users in understanding labor laws clearly and quickly.</p>
+<hr>
+</section>
+<section id="system-overview" class="level2">
+<h2 class="anchored" data-anchor-id="system-overview">System Overview</h2>
+<p>The <strong>Law AI Helper</strong> consists of three main parts:</p>
+<ul>
+<li><strong>Document Retrieval (RAG)</strong> – The system reads and indexes labor law documents using vector embeddings.</li>
+<li><strong>API Integration</strong> – The backend connects to an LLM API (like OpenAI or Gemini) for natural language responses.</li>
+<li><strong>User Query Interface</strong> – Users can ask legal questions in plain language, and the system retrieves relevant sections before generating a summarized, accurate response.</li>
+</ul>
+<p>For example, if a user asks:</p>
+<blockquote class="blockquote">
+<p>“Can my employer fire me without notice?”</p>
+</blockquote>
+<p>The system searches its indexed documents for related clauses about “termination” or “dismissal,” then summarizes the relevant labor law passages before answering.</p>
+<hr>
+</section>
+<section id="tools-and-technologies" class="level2">
+<h2 class="anchored" data-anchor-id="tools-and-technologies">Tools and Technologies</h2>
+<ul>
+<li><strong>Python</strong> (LangChain, OpenAI API)<br>
+</li>
+<li><strong>Vector Database</strong> (Chroma / Pinecone)<br>
+</li>
+<li><strong>Frontend</strong> (Next.js, Tailwind CSS)<br>
+</li>
+<li><strong>Legal Data Source:</strong> Government labor law documents and policy summaries</li>
+</ul>
+<hr>
+</section>
+<section id="insights" class="level2">
+<h2 class="anchored" data-anchor-id="insights">Insights</h2>
+<p>Working with RAG has helped me understand how LLMs can go beyond their training data by connecting them to real, verified information sources. It’s a powerful way to build trustworthy AI — especially for legal or sensitive use cases where hallucinations can be dangerous.</p>
+<hr>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
+<p>In the next phase, I’ll focus on:</p>
+<ul>
+<li>Improving document retrieval accuracy<br>
+</li>
+<li>Testing with different LLMs (GPT-4, Claude, Gemini)<br>
+</li>
+<li>Adding citation tracking for better transparency</li>
+</ul>
+<p>This project has already taught me that combining <strong>data science</strong>, <strong>natural language processing</strong>, and <strong>law</strong> can create meaningful tools that help people in real life.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>project</category>
+  <category>overview</category>
+  <guid>https://nhs102.github.io/law-ai-helper/posts/building-law-ai-helper/</guid>
+  <pubDate>Sat, 04 Oct 2025 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://nhs102.github.io/law-ai-helper/posts/post-with-code/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://nhs102.github.io/law-ai-helper/posts/post-with-code/</guid>
+  <pubDate>Sat, 04 Oct 2025 06:00:00 GMT</pubDate>
+  <media:content url="https://nhs102.github.io/law-ai-helper/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <link>https://nhs102.github.io/law-ai-helper/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://nhs102.github.io/law-ai-helper/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://nhs102.github.io/law-ai-helper/posts/welcome/</guid>
+  <pubDate>Wed, 01 Oct 2025 06:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
