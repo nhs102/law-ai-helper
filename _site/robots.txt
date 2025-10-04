@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://nhs102.github.io/law-ai-helper/sitemap.xml

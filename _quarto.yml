@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Law AI Helper Blog"
-  site-url: "" 
+  site-url: "https://your-username.github.io/law-ai-helper" 
   navbar:
     right:
       - text: "About"

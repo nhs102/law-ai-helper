@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-website-url.example.com/posts/welcome/index.html</loc>
-    <lastmod>2025-10-04T22:31:44.050Z</lastmod>
+    <loc>https://nhs102.github.io/law-ai-helper/posts/welcome/index.html</loc>
+    <lastmod>2025-10-04T22:45:35.718Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2025-10-04T22:31:44.049Z</lastmod>
+    <loc>https://nhs102.github.io/law-ai-helper/posts/building-law-ai-helper/index.html</loc>
+    <lastmod>2025-10-04T22:45:35.718Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/about.html</loc>
-    <lastmod>2025-10-04T22:31:44.059Z</lastmod>
+    <loc>https://nhs102.github.io/law-ai-helper/about.html</loc>
+    <lastmod>2025-10-04T22:45:35.716Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/post-with-code/index.html</loc>
-    <lastmod>2025-10-04T22:31:44.051Z</lastmod>
+    <loc>https://nhs102.github.io/law-ai-helper/index.html</loc>
+    <lastmod>2025-10-04T22:45:35.716Z</lastmod>
   </url>
   <url>
-    <loc>/index.html</loc>
-    <lastmod>2025-10-04T22:31:44.049Z</lastmod>
-  </url>
-  <url>
-    <loc>/posts/building-law-ai-helper/index.html</loc>
-    <lastmod>2025-10-04T22:36:02.826Z</lastmod>
+    <loc>https://nhs102.github.io/law-ai-helper/posts/post-with-code/index.html</loc>
+    <lastmod>2025-10-04T22:45:35.718Z</lastmod>
   </url>
 </urlset>
