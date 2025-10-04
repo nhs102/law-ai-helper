@@ -1,0 +1,17 @@
+project:
+  type: website
+
+website:
+  title: "Law AI Helper Blog"
+  site-url: "" 
+  navbar:
+    right:
+      - text: "About"
+        href: about.qmd
+  page-footer:
+    left: "© 2025 Shawn"
+
+format:
+  html:
+    theme: cosmo
+    toc: true

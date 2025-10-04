@@ -1,0 +1,66 @@
+---
+title: "Building a Legal AI Helper: My Senior Project Overview"
+description: "Introducing my senior project, Law AI Helper — an AI assistant for labor law information using RAG and LLMs."
+author: "Shawn"
+date: "2025-10-04"
+categories:
+  - project
+  - overview
+---
+
+## Introduction
+
+Accessing accurate and up-to-date legal information can be challenging for ordinary people, especially when it comes to labor laws. My senior project, **Law AI Helper**, aims to make legal knowledge more accessible by building an intelligent assistant that can understand and summarize labor law documents.
+
+The project integrates **Retrieval-Augmented Generation (RAG)** and **Large Language Models (LLMs)** to answer legal questions using official legal documents as references.
+
+---
+
+## Motivation
+
+Many people struggle to understand legal language or find the right information about their workplace rights. Even when legal documents are available online, they are often written in complex terms that are hard to interpret.
+
+As a data science student, I wanted to bridge this gap — using AI not to replace lawyers, but to assist users in understanding labor laws clearly and quickly.
+
+---
+
+## System Overview
+
+The **Law AI Helper** consists of three main parts:
+
+- **Document Retrieval (RAG)** – The system reads and indexes labor law documents using vector embeddings.
+- **API Integration** – The backend connects to an LLM API (like OpenAI or Gemini) for natural language responses.
+- **User Query Interface** – Users can ask legal questions in plain language, and the system retrieves relevant sections before generating a summarized, accurate response.
+
+For example, if a user asks:
+
+> “Can my employer fire me without notice?”
+
+The system searches its indexed documents for related clauses about “termination” or “dismissal,” then summarizes the relevant labor law passages before answering.
+
+---
+
+## Tools and Technologies
+
+- **Python** (LangChain, OpenAI API)  
+- **Vector Database** (Chroma / Pinecone)  
+- **Frontend** (Next.js, Tailwind CSS)  
+- **Legal Data Source:** Government labor law documents and policy summaries  
+
+---
+
+## Insights
+
+Working with RAG has helped me understand how LLMs can go beyond their training data by connecting them to real, verified information sources. It’s a powerful way to build trustworthy AI — especially for legal or sensitive use cases where hallucinations can be dangerous.
+
+---
+
+## Next Steps
+
+In the next phase, I’ll focus on:
+
+- Improving document retrieval accuracy  
+- Testing with different LLMs (GPT-4, Claude, Gemini)  
+- Adding citation tracking for better transparency  
+
+This project has already taught me that combining **data science**, **natural language processing**, and **law** can create meaningful tools that help people in real life.
